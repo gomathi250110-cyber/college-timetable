@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIT CSE B Timetable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Rajalakshmi Institute of Technology</h1>
+        <h2>Computer Science and Engineering</h2>
+        <p>II Year • 3rd Semester • CSE B</p>
+    </header>
+
+    <main>
+        <div class="top-bar">
+            <h2>📅 Weekly Timetable</h2>
+
+            <select id="daySelect">
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+            </select>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Faculty</th>
+                       
+                    </tr>
+                </thead>
+
+                <tbody id="timetableBody">
+                    <!-- Timetable will appear here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>RIT CSE B • Class Timetable</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
