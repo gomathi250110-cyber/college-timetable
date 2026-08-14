@@ -1,57 +1,57 @@
 const timetable = {
     Monday: [
-        ["1", "Editable", "Subject", "Faculty", "Room"],
-        ["2", "Editable", "Subject", "Faculty", "Room"],
-        ["3", "Editable", "Subject", "Faculty", "Room"],
-        ["4", "Editable", "Subject", "Faculty", "Room"],
-        ["5", "Editable", "Subject", "Faculty", "Room"],
-        ["6", "Editable", "Subject", "Faculty", "Room"],
-        ["7", "Editable", "Subject", "Faculty", "Room"],
-        ["8", "Editable", "Subject", "Faculty", "Room"]
+        ["1", "Editable", "Subject", "Faculty"],
+        ["2", "Editable", "Subject", "Faculty"],
+        ["3", "Editable", "Subject", "Faculty"],
+        ["4", "Editable", "Subject", "Faculty"],
+        ["5", "Editable", "Subject", "Faculty"],
+        ["6", "Editable", "Subject", "Faculty"],
+        ["7", "Editable", "Subject", "Faculty"],
+        ["8", "Editable", "Subject", "Faculty"]
     ],
 
     Tuesday: [
-        ["1", "Editable", "Subject", "Faculty", "Room"],
-        ["2", "Editable", "Subject", "Faculty", "Room"],
-        ["3", "Editable", "Subject", "Faculty", "Room"],
-        ["4", "Editable", "Subject", "Faculty", "Room"],
-        ["5", "Editable", "Subject", "Faculty", "Room"],
-        ["6", "Editable", "Subject", "Faculty", "Room"],
-        ["7", "Editable", "Subject", "Faculty", "Room"],
-        ["8", "Editable", "Subject", "Faculty", "Room"]
+        ["1", "Editable", "Subject", "Faculty"],
+        ["2", "Editable", "Subject", "Faculty"],
+        ["3", "Editable", "Subject", "Faculty"],
+        ["4", "Editable", "Subject", "Faculty"],
+        ["5", "Editable", "Subject", "Faculty"],
+        ["6", "Editable", "Subject", "Faculty"],
+        ["7", "Editable", "Subject", "Faculty"],
+        ["8", "Editable", "Subject", "Faculty"]
     ],
 
     Wednesday: [
-        ["1", "Editable", "Subject", "Faculty", "Room"],
-        ["2", "Editable", "Subject", "Faculty", "Room"],
-        ["3", "Editable", "Subject", "Faculty", "Room"],
-        ["4", "Editable", "Subject", "Faculty", "Room"],
-        ["5", "Editable", "Subject", "Faculty", "Room"],
-        ["6", "Editable", "Subject", "Faculty", "Room"],
-        ["7", "Editable", "Subject", "Faculty", "Room"],
-        ["8", "Editable", "Subject", "Faculty", "Room"]
+        ["1", "Editable", "Subject", "Faculty"],
+        ["2", "Editable", "Subject", "Faculty"],
+        ["3", "Editable", "Subject", "Faculty"],
+        ["4", "Editable", "Subject", "Faculty"],
+        ["5", "Editable", "Subject", "Faculty"],
+        ["6", "Editable", "Subject", "Faculty"],
+        ["7", "Editable", "Subject", "Faculty"],
+        ["8", "Editable", "Subject", "Faculty"]
     ],
 
     Thursday: [
-        ["1", "Editable", "Subject", "Faculty", "Room"],
-        ["2", "Editable", "Subject", "Faculty", "Room"],
-        ["3", "Editable", "Subject", "Faculty", "Room"],
-        ["4", "Editable", "Subject", "Faculty", "Room"],
-        ["5", "Editable", "Subject", "Faculty", "Room"],
-        ["6", "Editable", "Subject", "Faculty", "Room"],
-        ["7", "Editable", "Subject", "Faculty", "Room"],
-        ["8", "Editable", "Subject", "Faculty", "Room"]
+        ["1", "Editable", "Subject", "Faculty"],
+        ["2", "Editable", "Subject", "Faculty"],
+        ["3", "Editable", "Subject", "Faculty"],
+        ["4", "Editable", "Subject", "Faculty"],
+        ["5", "Editable", "Subject", "Faculty"],
+        ["6", "Editable", "Subject", "Faculty"],
+        ["7", "Editable", "Subject", "Faculty"],
+        ["8", "Editable", "Subject", "Faculty"]
     ],
 
     Friday: [
-        ["1", "Editable", "Subject", "Faculty", "Room"],
-        ["2", "Editable", "Subject", "Faculty", "Room"],
-        ["3", "Editable", "Subject", "Faculty", "Room"],
-        ["4", "Editable", "Subject", "Faculty", "Room"],
-        ["5", "Editable", "Subject", "Faculty", "Room"],
-        ["6", "Editable", "Subject", "Faculty", "Room"],
-        ["7", "Editable", "Subject", "Faculty", "Room"],
-        ["8", "Editable", "Subject", "Faculty", "Room"]
+        ["1", "Editable", "Subject", "Faculty"],
+        ["2", "Editable", "Subject", "Faculty"],
+        ["3", "Editable", "Subject", "Faculty"],
+        ["4", "Editable", "Subject", "Faculty"],
+        ["5", "Editable", "Subject", "Faculty"],
+        ["6", "Editable", "Subject", "Faculty"],
+        ["7", "Editable", "Subject", "Faculty"],
+        ["8", "Editable", "Subject", "Faculty"]
     ]
 };
 
@@ -69,7 +69,6 @@ function displayTimetable(day) {
             <td>${period[1]}</td>
             <td>${period[2]}</td>
             <td>${period[3]}</td>
-            <td>${period[4]}</td>
         `;
 
         timetableBody.appendChild(row);
