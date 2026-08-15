@@ -1,6 +1,7 @@
 const timetableBody = document.getElementById("timetableBody");
 const daySelect = document.getElementById("daySelect");
 
+
 const defaultData = {
     Monday: [],
     Tuesday: [],
